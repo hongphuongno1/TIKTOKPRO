@@ -17,3 +17,4 @@ SELECT @Cmd
 DELETE FROM tbmst WHERE mst IN(SELECT mst FROM #request)
 
 DROP TABLE #request
+----------------------
